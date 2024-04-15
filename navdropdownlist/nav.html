@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Dropdown Navbar</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="" class="nav__logo"> <i class="ri-planet-line"></i> Company </a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+        <!-- Nav Menu -->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Company</a>
+            </li>
+
+            <!-- Dropdown 1 -->
+            <li class="dropdown__item">
+              <div class="nav__link">Analytics <i class="ri-arrow-down-line dropdown__arrow"></i></div>
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="#" class="dropdown__link"><i class="ri-pie-chart-line"></i> Overview </a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown__link"><i class="ri-arrow-up-down-fill"></i> Transactions </a>
+                </li>
+
+                <!-- Dropdown SubMenu 1 -->
+                <li class="dropdown__subItem">
+                  <div class="dropdown__link"><i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i></div>
+
+                  <ul class="dropdown__submenu">
+                    <li>
+                      <a
+                        href="#
+                      "
+                        class="dropdown__sublink"
+                        ><i class="ri-file-list-line"></i> Documents
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#
+                      "
+                        class="dropdown__sublink"
+                        ><i class="ri-cash-line"></i> Payments
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#
+                      "
+                        class="dropdown__sublink"
+                      >
+                        Refunds
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#" class="nav__link">Products</a>
+            </li>
+
+            <!-- Dropdown 2 -->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Users
+                <i class="ri-arrow-down-line dropdown__arrow"></i>
+              </div>
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="#" class="dropdown__link"> <i class="ri-user-line"></i> Profiles </a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown__link"> <i class="ri-lock-line"></i> Accounts </a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown__link"><i class="ri-discuss-line"></i> Messages </a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Main Start -->
+
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+
+    <!-- Footer End -->
+
+    <script src="/main.js"></script>
+  </body>
+</html>
